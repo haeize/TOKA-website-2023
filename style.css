@@ -1,15 +1,67 @@
+/* Header Styles */
 header {
-            background-color: #0078d4;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
+background-color: #0078d4;
+color: #fff;
+text-align: center;
+padding: 20px;
         }
 
-        header h1 {
-            font-size: 36px;
-            font-family: Arial, sans-serif;
+h1 {
+font-size: 36px;
+font-family: Arial, sans-serif;
         }
 
-        header p {
-            font-size: 18px;
-            font-family: Arial, sans-serif;
+h4 {
+font-size: 18px;
+font-family: Arial, sans-serif;
+}
+
+ h5 {
+font-size: 18px;
+font-family: Arial, sans-serif;
+}
+
+ /* Footer Styles */
+footer {
+background-color: #333;
+ color: #fff;
+ text-align: center;
+ padding: 10px
+}
+
+ /* Content Section Styles */
+section { 
+margin: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+}      
+
+ection img {
+ max-width: 100%;
+ }       
+
+h4 {
+font-size: 24px;
+font-family: Arial, sans-serif;
+ }       
+
+h5 { 
+font-size: 20px;
+font-family: Arial, sans-serif;
+ 
+ }       
+
+p { 
+font-size: 16px;
+font-family: Arial, sans-serif;
+line-height: 1.5; /* Adjust line spacing */
+ }       
+
+        /* Link Styles */
+section a { 
+color: #0078d4; /* Link color */
+text-decoration: none;
+} 
+
+section a:hover {
+text-decoration: underline; /* Underline links on hover */        }
