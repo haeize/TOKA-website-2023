@@ -1,67 +1,85 @@
-/* Header Styles */
+/* Navigation Section */
+nav {
+    background-color: #333; /* Background color for the navigation */
+    color: #fff; /* Text color for the navigation */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Section */
 header {
-background-color: #0078d4;
-color: #fff;
-text-align: center;
-padding: 20px;
-        }
-
-h1 {
-font-size: 36px;
-font-family: Arial, sans-serif;
-        }
-
-h4 {
-font-size: 18px;
-font-family: Arial, sans-serif;
+    background-color: #0077b6; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    text-align: center;
+    padding: 20px;
 }
 
- h5 {
-font-size: 18px;
-font-family: Arial, sans-serif;
+header h1 {
+    font-size: 36px;
 }
 
- /* Footer Styles */
+/* Content Section */
+section {
+    padding: 20px;
+}
+
+section h4 {
+    font-size: 24px;
+    color: #333;
+}
+
+section h5 {
+    font-size: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer Section and Form */
 footer {
-background-color: #333;
- color: #fff;
- text-align: center;
- padding: 10px
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center;
+    padding: 10px;
 }
 
- /* Content Section Styles */
-section { 
-margin: 20px;
-padding: 20px;
-border: 1px solid #ddd;
-}      
+footer form {
+    margin-top: 10px;
+}
 
-ection img {
- max-width: 100%;
- }       
+footer input[type="text"], footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-h4 {
-font-size: 24px;
-font-family: Arial, sans-serif;
- }       
+footer input[type="submit"] {
+    background-color: #0077b6; /* Background color for the submit button */
+    color: #fff; /* Text color for the submit button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-h5 { 
-font-size: 20px;
-font-family: Arial, sans-serif;
- 
- }       
 
-p { 
-font-size: 16px;
-font-family: Arial, sans-serif;
-line-height: 1.5; /* Adjust line spacing */
- }       
-
-        /* Link Styles */
-section a { 
-color: #a90e0e; /* Link color */
-text-decoration: none;
-} 
-
-section a:hover {
-text-decoration: underline; /* Underline links on hover */        }
