@@ -1,82 +1,17 @@
-/* Navigation Styles */  
-        nav {
-            background-color: #333;
-            color: #fff;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Header Styles */
+/* Header Styles */
         header {
-            background-color: #0078d4;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
+        background-color: #0078d4;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
         }
 
-        header h1 {
-            font-size: 36px;
+        h1 {
+        font-size: 36px;
+        font-family: Arial, sans-serif;
         }
 
-        header p {
-            font-size: 18px;
-        }
-
-        /* Content Section Styles */
         section {
-            margin: 20px;
-            padding: 20px;
-            border: 1px solid #ddd;
-        }
-
-        section img {
-            max-width: 100%;
-        }
-
-        h4 {
-            font-size: 24px;
-        }
-
-        h5 {
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-        /* Footer Styles */
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Form Styles (Assuming there's a form in the footer) */
-        form {
-            margin: 20px 0;
-        }
-
-        /* Add more specific styles for links in the content section */
-        section a {
-            color: #0078d4;
-            text-decoration: none;
-        }
-
-        section a:hover {
-            text-decoration: underline;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
         }
