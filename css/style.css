@@ -1,14 +1,7 @@
-/* Body styling */
 body {
-  background: #f8ff85;
-  color: #f8ff85;
-  font-family: Helvetica, Arial;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.65em;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 40px 10px;  
+  background-image: url(herobk.png)
+  background-size: cover; 
+  background-attachment: fixed;
 }
 
 /* Navigation Section */
@@ -34,12 +27,12 @@ nav a {
     color: #fff;
 }
 
-/* Add a media query for max width of 768px devices */
+
 @media (max-width: 768px) {
     nav li {
-        display: block; /* Stack links vertically */
-        margin-right: 0; /* Remove right margin to separate links properly */
-        margin-bottom: 10px; /* Add bottom margin to space out the links */
+        display: block; 
+        margin-right: 0; 
+        margin-bottom: 10px; 
     }
 }
 
@@ -55,10 +48,10 @@ header h1 {
     font-size: 36px;
 }
 
-/* Add a media query for max width of 480px devices */
+
 @media (max-width: 480px) {
     header h1 {
-        font-size: 24px; /* Smaller font size for h1 */
+        font-size: 24px; 
     }
 }
 
@@ -67,7 +60,7 @@ section {
     padding: 20px;
 }
 
-/* Style content section images to have a max-width of 100% */
+
 section img {
     max-width: 100%;
 }
@@ -84,16 +77,16 @@ footer form {
     margin-top: 10px;
 }
 
-/* Style footer form to be stacked within a media query */
+
     @media (max-width: 480px) {
         footer form {
-            display: block; /* Stack form elements vertically */
+            display: block; 
     }
     footer input[type="text"],
     footer input[type="email"],
     footer input[type="submit"] {
-        width: 100%; /* Full width for input fields and submit button */
-        margin: 5px 0; /* Margin for spacing */
+        width: 100%; 
+        margin: 5px 0; 
     }
 }
 
