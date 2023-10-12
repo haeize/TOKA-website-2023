@@ -1,7 +1,6 @@
-body {
-  background-image: url(herobk.png)
-  background-size: cover; 
-  background-attachment: fixed;
+html,body{
+    margin:0;
+    padding:0;
 }
 
 /* Navigation Section */
@@ -15,10 +14,11 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: Center;
 }
 
 nav li {
-    display: inline;
     margin-right: 20px;
 }
 
@@ -38,16 +38,26 @@ nav a {
 
 /* Header Section */
 header {
-    background-color: #0077b6;
+    background-image: url(../img/herobk.png);
+    background-size: cover; 
+    padding-top: 8rem;
+    padding-bottom: 20rem;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    }
+.btn{
+    background-color: #fff;
+    padding:15px 30px;
+    text-decoration: none;
+    border-radius: 18px;
 }
-
-header h1 {
-    font-size: 36px;
+header {
+    font-size: 20px;
+    text-align: center;
 }
-
+header h1{
+    margin-bottom: 10rem;
+}
 
 @media (max-width: 480px) {
     header h1 {
@@ -67,10 +77,11 @@ section img {
 
 /* Footer Section and Form */
 footer {
-    background-color: #333;
-    color: #a056;
+    background-color: #fff;
+    color: #333;
     text-align: center;
     padding: 10px;
+    text-align: left;
 }
 
 footer form {
@@ -88,5 +99,41 @@ footer form {
         width: 100%; 
         margin: 5px 0; 
     }
+}
+
+/*Category Links*/
+.categories {
+    display: flex;
+    margin:3rem auto;
+    gap:2rem;
+    padding-top:5rem;
+    padding-bottom:8rem;
+    justify-content: center;
+}
+.category  {
+  padding:3rem;
+    background-image: url(../img/audio.png);
+    background-size: cover;
+    border-radius:20px;
+}
+.category-audio {
+    background-image: url(../img/audio.png);
+    
+}
+.category-voice {
+    background-image: url(../img/voice.png);
+    margin-top:-4rem;
+    margin-bottom: 4rem;
+    
+}
+.category-components {
+    background-image: url(../img/components.png);
+   
+}
+.category h4 {
+    color: white;
+    text-transform: Uppercase;
+    font-size: 40px; /*google to rotate*/
+     writing-mode: vertical-lr;
 }
 
