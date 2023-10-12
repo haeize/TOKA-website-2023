@@ -1,7 +1,20 @@
+/* Body styling */
+body {
+  background: #f8ff85;
+  color: #f8ff85;
+  font-family: Helvetica, Arial;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+}
+
 /* Navigation Section */
 nav {
-    background-color: #333; /* Background color for the navigation */
-    color: #fff; /* Text color for the navigation */
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 10px;
 }
@@ -21,10 +34,19 @@ nav a {
     color: #fff;
 }
 
+/* Add a media query for max width of 768px devices */
+@media (max-width: 768px) {
+    nav li {
+        display: block; /* Stack links vertically */
+        margin-right: 0; /* Remove right margin to separate links properly */
+        margin-bottom: 10px; /* Add bottom margin to space out the links */
+    }
+}
+
 /* Header Section */
 header {
-    background-color: #0077b6; /* Background color for the header */
-    color: #fff; /* Text color for the header */
+    background-color: #0077b6;
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
@@ -33,30 +55,27 @@ header h1 {
     font-size: 36px;
 }
 
+/* Add a media query for max width of 480px devices */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px; /* Smaller font size for h1 */
+    }
+}
+
 /* Content Section */
 section {
     padding: 20px;
 }
 
-section h4 {
-    font-size: 24px;
-    color: #333;
-}
-
-section h5 {
-    font-size: 20px;
-    color: #333;
-}
-
-section p {
-    font-size: 16px;
-    line-height: 1.5;
+/* Style content section images to have a max-width of 100% */
+section img {
+    max-width: 100%;
 }
 
 /* Footer Section and Form */
 footer {
-    background-color: #333; /* Background color for the footer */
-    color: #a056; /* Text color for the footer */
+    background-color: #333;
+    color: #a056;
     text-align: center;
     padding: 10px;
 }
@@ -65,20 +84,16 @@ footer form {
     margin-top: 10px;
 }
 
-footer input[type="text"], footer input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-footer input[type="submit"] {
-    background-color: #0077b6; /* Background color for the submit button */
-    color: #fff; /* Text color for the submit button */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+/* Style footer form to be stacked within a media query */
+    @media (max-width: 480px) {
+        footer form {
+            display: block; /* Stack form elements vertically */
+    }
+    footer input[type="text"],
+    footer input[type="email"],
+    footer input[type="submit"] {
+        width: 100%; /* Full width for input fields and submit button */
+        margin: 5px 0; /* Margin for spacing */
+    }
 }
 
